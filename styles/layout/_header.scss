@@ -24,6 +24,18 @@ header{
             color: #fff;
         }
 
+        .menu-inline{
+            display: none;
+            justify-content: space-evenly;
+            a{
+                margin-left: 15px;
+                color: #fff;
+            }
+            @include media-min(768px) {
+                display:flex;
+            }
+        }
+
         .burger-menu{
             width: 25px;
             
@@ -35,11 +47,14 @@ header{
             div:nth-of-type(2){
                 margin: 5px 0;
             }
+            @include media-min(768px) {
+                display:none;
+            }
         }
     }
-    .encre{
+    .ancre{
         width: 60px;
-        height: 30px;
+        height: 40px;
         background: rgb(29,200,203);
         background: linear-gradient(193deg, rgba(29,200,203,1) 43%, rgba(0,251,161,1) 100%);
         border-color: rgb(29,200,203);
@@ -50,11 +65,13 @@ header{
         position: fixed;
         z-index: 2;
         bottom: 0;
-        right: 10px;
+        right: 20px;
         scroll-behavior: smooth;
 
-        a{
-
+        svg{
+            path{
+                fill: #fff;
+            }
         }
     }
 }

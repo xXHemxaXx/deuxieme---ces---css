@@ -17,9 +17,18 @@
                     <div></div>
                 </div>
             </a>
+            <div class="menu-inline">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Features</a>
+                <a href="">Pricing</a>
+                <a href="">Team</a>
+                <a href="">Gallery</a>
+                <a href="">Contact Us</a>
+            </div>
         </nav>
-        <div class="encre">
-            <a href="./index.html">
+        <div>
+            <a href="#" class="ancre">
                 <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">
                     <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path fill="#" d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z"/>
@@ -29,7 +38,7 @@
     </header>
     <main>
         <!-- Banner -->
-        <section class="section-banner wrapper">
+        <section class="section-banner">
             <div class="banner-txt">
                 <div class="titre-banner">
                     <h1>Welcome to Avilon</h1>
@@ -39,17 +48,21 @@
             </div>
             <div class="container-banner-img wrapper">
                 <img src="./img/product-screen-1.png" alt="screen-1">
+                <span class="hidden">
+                    <img src="./img/product-screen-2.png" alt="">
+                    <img src="./img/product-screen-3.png" alt="">
+                </span>
             </div>
         </section>
         <!-- About  us -->
-        <section class="section-aboutus wrapper">
-            <div class="titre-section">
+        <section class="section-aboutus">
+            <div class="titre-section wrapper">
                 <h2>About Us</h2>
                 <div class="ligne"></div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
-            <article class="container-aboutus-article">
-                <div>
+            <article class="container-aboutus-article wrapper">
+                <div class="container-img-abourus">
                     <img src="./img/about-img.jpg" alt="about-us">
                 </div>
                 <div class="container-aboutus-txt">
@@ -99,65 +112,66 @@
                 <h2>Product Featuress</h2>
                 <div class="ligne"></div>
             </div>
-            <div class="container-product-img">
-                <img src="./img/product-features.png" alt="phone">
-            </div>
-            <!-- Points -->
-            <div class="container-info-products wrapper">
-                <!-- Lorem Ipsum -->
-                <div class="info-products">
-                    <!-- SVG -->
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
-                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                            <path fill="#a5efe6" d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-15.9-5.8-30.4-15.3-41.6l76.6-147.4c6.1-11.8 1.5-26.3-10.2-32.4s-26.2-1.5-32.4 10.2L262.1 288.3c-2-.2-4-.3-6.1-.3c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64z"/>
-                        </svg>
-                    </div>
-                    <div><a href="">Lorem Ipsum</a></div>
-                    <div><p class="txt-grey">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p></div>
+            <div class="container-product-768px">
+                <div class="container-product-img">
+                    <img src="./img/product-features.png" alt="phone">
                 </div>
-                <!-- Dolor Sitema -->
-                <div  class="info-products">
-                    <!-- SVG -->
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
-                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                            <path fill="#a5efe6" d="M288 0H160 128C110.3 0 96 14.3 96 32s14.3 32 32 32V196.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6C0 480.9 31.1 512 69.4 512H378.6c38.3 0 69.4-31.1 69.4-69.4c0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zM192 196.8V64h64V196.8c0 23.7 6.6 46.9 19 67.1L309.5 320h-171L173 263.9c12.4-20.2 19-43.4 19-67.1z"/>
-                        </svg>
+                <!-- Points -->
+                <div class="container-info-products wrapper">
+                    <!-- Lorem Ipsum -->
+                    <div class="info-products">
+                        <!-- SVG -->
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#a5efe6" d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-15.9-5.8-30.4-15.3-41.6l76.6-147.4c6.1-11.8 1.5-26.3-10.2-32.4s-26.2-1.5-32.4 10.2L262.1 288.3c-2-.2-4-.3-6.1-.3c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64z"/>
+                            </svg>
+                        </div>
+                        <div><a href="">Lorem Ipsum</a></div>
+                        <div><p class="txt-grey">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p></div>
                     </div>
-                    <div><a href="">Dolor Sitema</a></div>
-                    <div><p class="txt-grey">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p></div>
-                </div>
-                <!-- Sed ut perspiciatis -->
-                <div class="info-products">
-                    <!-- SVG -->
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
-                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                            <path fill="#a5efe6" d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/>
-                        </svg>
+                    <!-- Dolor Sitema -->
+                    <div  class="info-products">
+                        <!-- SVG -->
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#a5efe6" d="M288 0H160 128C110.3 0 96 14.3 96 32s14.3 32 32 32V196.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6C0 480.9 31.1 512 69.4 512H378.6c38.3 0 69.4-31.1 69.4-69.4c0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zM192 196.8V64h64V196.8c0 23.7 6.6 46.9 19 67.1L309.5 320h-171L173 263.9c12.4-20.2 19-43.4 19-67.1z"/>
+                            </svg>
+                        </div>
+                        <div><a href="">Dolor Sitema</a></div>
+                        <div><p class="txt-grey">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p></div>
                     </div>
-                    <div><a href="">Sed ut perspiciatis</a></div>
-                    <div><p class="txt-grey">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo</p></div>
-                </div>
-                <!-- Magni Dolores -->
-                <div class="info-products">
-                    <!-- SVG -->
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
-                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                            <path fill="#a5efe6" d="M269.5 69.9c11.1-7.9 25.9-7.9 37 0C329 85.4 356.5 96 384 96c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 149.7 417 160 384 160c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4C42.8 92.6 61 83.5 75.3 71.6c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 85.2 165.1 96 192 96c27.5 0 55-10.6 77.5-26.1zm37 288C329 373.4 356.5 384 384 384c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 437.7 417 448 384 448c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 373.2 165.1 384 192 384c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0zm0-144C329 229.4 356.5 240 384 240c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 293.7 417 304 384 304c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 229.2 165.1 240 192 240c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/>
-                        </svg>
+                    <!-- Sed ut perspiciatis -->
+                    <div class="info-products">
+                        <!-- SVG -->
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#a5efe6" d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/>
+                            </svg>
+                        </div>
+                        <div class="center-768px"><a href="">Sed ut perspiciatis</a></div>
+                        <div><p class="txt-grey">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo</p></div>
                     </div>
-                    <div><a href="">Magni Dolores</a></div>
-                    <div><p class="txt-grey">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p></div>
+                    <!-- Magni Dolores -->
+                    <div class="info-products">
+                        <!-- SVG -->
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
+                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#a5efe6" d="M269.5 69.9c11.1-7.9 25.9-7.9 37 0C329 85.4 356.5 96 384 96c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 149.7 417 160 384 160c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4C42.8 92.6 61 83.5 75.3 71.6c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 85.2 165.1 96 192 96c27.5 0 55-10.6 77.5-26.1zm37 288C329 373.4 356.5 384 384 384c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 437.7 417 448 384 448c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 373.2 165.1 384 192 384c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0zm0-144C329 229.4 356.5 240 384 240c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 293.7 417 304 384 304c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.5 27.3-10.1 39.2-1.7l0 0C136.7 229.2 165.1 240 192 240c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/>
+                            </svg>
+                        </div>
+                        <div><a href="">Magni Dolores</a></div>
+                        <div><p class="txt-grey">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p></div>
+                    </div>
                 </div>
-
             </div>
         </section>
         <!-- Duis aute -1 (tablette) -->
-        <section class="section-tablette wrapper">
-            <article>
+        <section class="section-tablette">
+            <article class="wrapper">
                 <div>
                     <img src="./img/advanced-feature-1.jpg" alt="tablette">
                 </div>
@@ -170,11 +184,11 @@
             </article>
         </section>
         <!-- Duis aute -2 (study) -->
-        <section class="section-study wrapper">
-            <div>
+        <section class="section-study">
+            <div class="wrapper">
                 <img src="./img/advanced-feature-2.jpg" alt="study">
             </div>
-            <div>
+            <div class="wrapper">
                 <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse</h3>
                 <div>
                     <div>
@@ -211,11 +225,11 @@
             </div>
         </section>
         <!-- Duis aute -3 (stat) -->
-        <section class="section-stat wrapper">
-            <div>
+        <section class="section-stat">
+            <div class="wrapper">
                 <img src="./img/advanced-feature-3.jpg" alt="tablette">
             </div>
-            <div>
+            <div class="wrapper">
                 <h3>Duis aute irure dolor in reprehenderit in voluptate velit esse</h3>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -235,12 +249,14 @@
         <section class="section-calltoaction">
             <div class="bcg-img">
                 <div>
-                    <div>
-                        <h3>Call To Action</h3>
-                    </div>
-                    <div>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
+                    <span>
+                        <div>
+                            <h3>Call To Action</h3>
+                        </div>
+                        <div>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </span>
                     <div>
                         <a href="">Call To Action</a>
                     </div>
@@ -248,14 +264,14 @@
             </div>
         </section>
         <!-- More Features -->
-        <section class="section-morefeatures wrapper">
+        <section class="section-morefeatures">
             <!-- Titre -->
             <div class="titre-section">
                 <h2>More Features</h2>
                 <div class="ligne"></div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
             </div>
-            <div class="container-mores">
+            <div class="container-mores wrapper">
                 <!-- Lorem Ipsum -->
                 <div class="container-more">
                     <!-- SVG -->
@@ -265,7 +281,7 @@
                             <path fill="#a5efe6" d="M176 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h16V98.4C92.3 113.8 16 200 16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-41.8-12.3-80.7-33.5-113.2l24.1-24.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L355.7 143c-28.1-23-62.2-38.8-99.7-44.6V64h16c17.7 0 32-14.3 32-32s-14.3-32-32-32H224 176zm72 192V320c0 13.3-10.7 24-24 24s-24-10.7-24-24V192c0-13.3 10.7-24 24-24s24 10.7 24 24z"/>
                         </svg>
                     </div>
-                    <div>
+                    <div class="container-more-txt">
                         <a href="">Lorem Ipsum</a>
                         <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
                     </div>
@@ -348,14 +364,14 @@
             </div>
         </section>
         <!-- Pricing -->
-        <section class="section-Pricing wrapper">
+        <section class="section-Pricing">
             <!-- Titre -->
             <div class="titre-section">
                 <h2>Pricing</h2>
                 <div class="ligne"></div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
             </div>
-            <div class="container-abo">
+            <div class="container-abo wrapper">
                 <!-- Free -->
                 <div class="container-price-abo">
                     <h3>Free</h3>
@@ -409,7 +425,7 @@
                     <a href="" class="btn" >Get Started</a>
                 </div>
                 <!-- Business -->
-                <div class="container-price-abo">
+                <div class="container-price-abo business">
                     <h3>Business</h3>
                     <p><span class="color"><span class="size">$</span>29</span> month</p>
                     <!-- checked-abo -->

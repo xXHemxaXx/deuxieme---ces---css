@@ -118,6 +118,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px -5px 44px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px -5px 44px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -5px 44px -1px rgba(0,0,0,1);
     
     .container-copyright{
         width: 290px;
